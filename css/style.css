@@ -1,0 +1,193 @@
+html {
+	width: 100%;
+	height: 100%;
+	
+	color: white;
+	
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+	height: 100%;
+	background-color:rgb(20, 18, 29);
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+    margin:0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.my_text{
+	text-align: center;
+}
+
+.navbar-brand img {
+	width: 10vw;
+}
+
+.navbar-nav li {
+	padding-right: 1.15vw;
+}
+
+
+
+
+.nav-link {
+	font-size: 1.1em !important;
+	
+}
+
+
+
+.carousel-inner img {
+	transform: translateY(-5%);
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	
+	
+}
+
+@media (max-width: 450px) {
+	p{ .display-2 {
+		font-size: 3em;
+	}
+	}
+}
+
+.row img{
+	width: 15vw;
+	height: 15vw;
+	
+}
+.about ul,
+.about li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.about li {
+	display: inline-block;
+	width: 30vw;
+	position: relative;
+}
+
+.about img {
+	min-width: 100%;
+	display: block;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+.descr{
+	position: absolute;
+	top:0;
+	left:10%;
+	width: 100%;
+	height: 84%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 1.5vw;
+	padding-top: 15%;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: all .5s ;
+	-o-transition: all .5s;
+	transition: all .5s;
+	
+}
+
+@media (max-width: 767px) {
+	/*xs*/
+	.btn {
+		padding: 1px 5px;
+		font-size: 12px;
+		line-height: 1.5;
+		border-radius: 3px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	/*sm*/
+	.btn {
+		padding: 5px 10px;
+		font-size: 12px;
+		line-height: 1.5;
+		border-radius: 3px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*md*/
+	.btn {
+		padding: 6px 12px;
+		font-size: 14px;
+		line-height: 1.42857143;
+		border-radius: 4px;
+	}
+}
+@media (min-width: 1200px) {
+	/*lg*/
+	.btn {
+		padding: 10px 16px;
+		font-size: 18px;
+		line-height: 1.3333333;
+		border-radius: 6px;
+	}
+}
+
+.about li:hover .descr {
+	opacity: 1;
+}
+
+.title_about{
+	
+	text-align: center;
+	
+}
+
+
+
+
+
+  
+  
+  footer {
+	width: 100%;
+	height: auto;
+	
+	position: absolute;
+	margin-bottom: -2%;
+	
+	background-color: #333;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2.5% ;
+	
+  }
+  
+  
+  .social img {
+	  width: 2%;
+	  height: 2%;
+	  margin-left: 4%;
+	  margin-bottom: 3%;
+	  
+  }
+  
+  .social p {
+	  margin-left: 3%;
+  }
+
+

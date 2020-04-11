@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>History</title>
+	
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+	<link rel = "shortcut icon" href = "img/ai145.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css"  >
+	<link rel="stylesheet" href="css/history.css">
+	<link rel="stylesheet" href="css/history1.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="dist/js/timeline.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/history.js" ></script>
+    <script src="js/popper.min.js" ></script>
+</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+			<div class="container-fluid">
+				<a href="index.html" class="navbar-brand"><img src="img/ai145.png" style="height: 3rem; width: 3.5rem;"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResp">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div  id="navbarResp" class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+						<li class="nav-item active"><a href="history.html" class="nav-link">History</a></li>
+						<li class="nav-item"><a href="ai.html" class="nav-link">Artificial intelligence</a></li>
+						<li class="nav-item"><a href="prospects.html" class="nav-link">The prospects</a></li>
+						<li class="nav-item"><a href="about.html" class="nav-link">About project</a></li>
+					</ul>
+				</div>		
+			</div>
+		</nav>
+	<h1>History of AI development </h1>
+	<br> 
+	<div class="process-wrapper">
+	<div id="progress-bar-container">
+		<ul>
+			<li class="step step01 active"><div class="step-inner">1950-1970s</div></li>
+			<li class="step step02"><div class="step-inner">1980s</div></li>
+			<li class="step step03"><div class="step-inner">1990-2000s</div></li>
+			<li class="step step04"><div class="step-inner">Now</div></li>
+			<li class="step step05"><div class="step-inner">???</div></li>
+		</ul>
+		
+		<div id="line">
+			<div id="line-progress"></div>
+		</div>
+	</div>
+	
+	<div id="progress-content-section" style="margin-bottom: 5%;">
+		<div class="section-content discovery active">
+			<h2>Start of development</h2>
+			<p><br>- term "artificial intelligence" was coined.<br><br>
+			- "global problem solver" was created.<br><br>
+				- Article "Computing Machinery and Intelligence" published by Alan Turing.<br><br>
+				- Georgetown experiment demonstrated fully automatic translation of more than 60 sentences from Russian to English.<br><br>
+			- the first vehicle in history to successfully conquer the lunar surface<br> </p>
+
+				<a href="50.html"><button type="button" class="btn btn-outline-dark">Read more</button></a>
+				
+
+		</div>
+		
+		<div class="section-content strategy">
+			<h2>Development continues</h2>
+			<p><br>By the 1980s, AI was revived. John Hopfield and David Rumelhart popularized "deep learning" methods that allowed computers to learn from experience. 
+				Expert systems were also created. This systems imitated the decision-making process of a human expert.<br></p>
+
+				<a href="80.html"><button type="button" class="btn btn-outline-dark">Read more</button></a>
+		</div>
+		
+		<div class="section-content creative">
+			<h2>The first serious steps</h2>
+			<p><br>- The great chess player Gary Kasparov lost to the computer.<br><br>
+				- speech recognition software was implemented.<br><br>
+				- Kismet robot could recognize and display emotions of human.<br><br></p>
+			<a href="90.html"><button type="button" class="btn btn-outline-dark">Read more</button></a>
+		</div> 
+		
+		<div class="section-content production">
+			<h2>Our days</h2>
+			<p><br>- exploring another planet<br><br>
+				- defusing bombs <br><br>
+				- medical diagnosis<br><br>
+				- robot control<br><br></p>
+			<a href="now.html"><button type="button" class="btn btn-outline-dark">Read more</button></a>
+		</div>
+		
+		<div class="section-content analysis">
+			<h2>Future</h2>
+			<p><br>What will happen in the future?<br><br></p>
+			<a href="prospects.html"><button type="button" class="btn btn-outline-dark">Read more</button></a>
+		</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	 <script>
+		$(".step").click( function() {
+		$(this).addClass("active").prevAll().addClass("active");
+		$(this).nextAll().removeClass("active");
+	});
+	
+	$(".step01").click( function() {
+		$("#line-progress").css("width", "3%");
+		$(".discovery").addClass("active").siblings().removeClass("active");
+	});
+	
+	$(".step02").click( function() {
+		$("#line-progress").css("width", "25%");
+		$(".strategy").addClass("active").siblings().removeClass("active");
+	});
+	
+	$(".step03").click( function() {
+		$("#line-progress").css("width", "50%");
+		$(".creative").addClass("active").siblings().removeClass("active");
+	});
+	
+	$(".step04").click( function() {
+		$("#line-progress").css("width", "75%");
+		$(".production").addClass("active").siblings().removeClass("active");
+	});
+	
+	$(".step05").click( function() {
+		$("#line-progress").css("width", "100%");
+		$(".analysis").addClass("active").siblings().removeClass("active");
+	});
+	</script>
+
+	<footer style="position: fixed-bottom;">
+		
+		<div class="social">
+
+			<a href="mailto:dubinkina.ju@yandex.ru"><img src="img/log1.jpg" alt=""></a>
+			<a href="https://vk.com/deya_tihaya"><img src="img/logo2.2.png" alt=""></a>
+			
+			<a href="mailto:kkiirriillll.ll@gmail.com"><img src="img/log1.jpg" alt=""></a>
+			<a href="https://vk.com/id283001114"><img src="img/logo2.2.png" alt=""></a>
+		  
+		  </div>
+		  <div class="social"  style="font-size:1.5vw">
+			<p>© Dubinkina Juliya &nbsp;&nbsp;&nbsp;&nbsp;&&nbsp;&nbsp;&nbsp;&nbsp; © Labazov Kirill</p>
+			
+			
+		</div>
+	</footer>
+
+	</body>
+</html>
