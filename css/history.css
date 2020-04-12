@@ -37,7 +37,7 @@ h1 {
            
     color:rgb(255, 255, 255);
     font-weight:700;
-    font-size: 4vw;
+    font-size: 2em;
     margin-top:5%;	 
     text-align:center;
     text-transform:uppercase;
@@ -105,7 +105,7 @@ h1 {
     position:absolute;
     width:100%;
     bottom:0;
-    font-size: 1.2vw;
+    font-size: 1.2em;
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
@@ -162,7 +162,7 @@ h1 {
 #progress-content-section {
     width:50%;
     margin: auto;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     background: #f3f3f3;
     border-radius: 4px;
 }
@@ -173,14 +173,14 @@ h1 {
 }
 
 #progress-content-section .section-content h2 {
-    font-size:1.7vw;
+    font-size:1.3em;
     text-transform:uppercase;
     color:#333;
     letter-spacing:1px;
 }
 
 #progress-content-section .section-content p {
-    font-size:1.1vw;
+    font-size:1.1em;
     line-height:1.8em;
     color:#777;
 }
