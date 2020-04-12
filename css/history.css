@@ -51,7 +51,7 @@ h1 {
 
 #progress-bar-container {
     position:relative;
-    width:80vw;
+    width:80%;
     margin:auto;
     height:15vh;
     margin-top:5%;
@@ -160,7 +160,7 @@ h1 {
 }
 
 #progress-content-section {
-    width:70%;
+    width:60%;
     margin: auto;
     font-size: 1.1em;
     background: #f3f3f3;
