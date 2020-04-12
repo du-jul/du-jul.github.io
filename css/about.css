@@ -46,7 +46,7 @@ body {
     margin-bottom: -3%;
     margin-top: -7%;
     padding-bottom: 4%;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .cont img{
@@ -65,7 +65,7 @@ body {
 }
 
 .cont h1{
-    font-size: 1.5vw;
+    font-size: 1.5em;
     font-weight: 500;
     margin-bottom: 2%;
 }
