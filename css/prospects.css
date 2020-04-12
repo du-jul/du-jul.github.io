@@ -79,7 +79,7 @@ body {
     background-color: rgb(255, 255, 255);
     width: 80%;
     margin-left: 10%;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     margin-bottom: -3%;
     margin-top: -7%;
     padding: 3vw 4vw 3vw 4vw;
@@ -101,11 +101,11 @@ body {
 }
 
 .cont h1{
-    font-size: 1.5vw;
-    font-size: 500;
+    font-size: 1.5em;
+    font-weight: 500;
 }
 .cont h3{
-    font-size: 2.3em;
+    font-size: 1.3em;
 }
 
 .cont li{
