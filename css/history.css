@@ -36,8 +36,8 @@ body {
 h1 {
            
     color:rgb(255, 255, 255);
-    font-weight:700;
-    font-size: 2vw;
+    font-weight:500;
+    font-size: 1.5vw;
     margin-top:5%;	 
     text-align:center;
     text-transform:uppercase;
@@ -160,7 +160,7 @@ h1 {
 }
 
 #progress-content-section {
-    width:80vw;
+    width:80%;
     margin: auto;
     font-size: 1.1em;
     background: #f3f3f3;
