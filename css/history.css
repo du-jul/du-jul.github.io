@@ -51,7 +51,7 @@ h1 {
 
 #progress-bar-container {
     position:relative;
-    width:80%;
+    width:80vw;
     margin:auto;
     height:15vh;
     margin-top:5%;
