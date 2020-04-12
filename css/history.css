@@ -105,7 +105,7 @@ h1 {
     position:absolute;
     width:100%;
     bottom:0;
-    font-size: .5em;
+    font-size: 1.2vw;
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
